@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">Base Project</string>
+    <string name="tv_app_title">Account Manager</string>
+    <string name="hint_ed_text_1">Enter the website domain...</string>
+    <string name="hint_ed_text_2">Enter your user name...</string>
+    <string name="hint_ed_text_3">Enter your email...</string>
+    <string name="hint_ed_text_4">Enter your address...</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_check">Accounts</string>
+  <string name="tv_checkout_info">Checkout Info</string>
+  <string name="tv_status">No account hasn\'t been registered</string>
+  <string name="tv_website_title">Website Domain</string>
+  <string name="tv_user_title">Username</string>
+  <string name="tv_email_title">Email</string>
+  <string name="tv_address_title">Address</string>
+  <string name="tv_payment_title">Payment Info</string>
+</resources>

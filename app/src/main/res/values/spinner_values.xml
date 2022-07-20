@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payment_info" >
+        <item>No Payment Method</item>
+        <item>Credit Card</item>
+        <item>Debit Cards</item>
+        <item>Paypal</item>
+        <item>Online Banking</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin"
+        android:text="@string/tv_app_title"
+        android:textAlignment="center"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin"
+        android:hint="@string/hint_ed_text_1" />
+
+    <EditText
+        android:id="@+id/edUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin"
+        android:hint="@string/hint_ed_text_2" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin"
+        android:hint="@string/hint_ed_text_3" />
+
+    <EditText
+        android:id="@+id/edAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin"
+        android:hint="@string/hint_ed_text_4" />
+
+    <TextView
+        android:id="@+id/tvPaymentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin"
+        android:text="@string/tv_payment_title"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sample_margin" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/sample_margin"
+        android:text="@string/btn_register" />
+
+</LinearLayout>
